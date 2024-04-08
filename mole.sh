@@ -1,4 +1,3 @@
-a one eyed end, [06.09.2023 12:57]
 #/usr/local/bin/bash
 
 # 1. Projekt IOS
