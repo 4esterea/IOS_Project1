@@ -77,9 +77,7 @@ function showInfo ### output of the manual for using the script
   echo "###           tak skript vybere soubor, který byl pomocí skriptu otevřen (editován) nejčastěji.                     ###"
   echo "###_________________________________________________________________________________________________________________###"
   echo "###                                                                                                                 ###"
-
-a one eyed end, [06.09.2023 12:57]
-echo "###               *pokud tento skript používáte poprvé, nastavte editor v proměnné EDITOR a také                    ###" 
+  echo "###               *pokud tento skript používáte poprvé, nastavte editor v proměnné EDITOR a také                    ###" 
   echo "###                              nastavte název souboru pro LOG v proměnné MOLE_RC                                  ###"
   echo "###_________________________________________________________________________________________________________________###"
   exit 1
@@ -190,7 +188,6 @@ function configCheck ### function to check if config is set or not
   fi
 }
 
-a one eyed end, [06.09.2023 12:57]
 function findMostUsed ### function to find the file in a particular directory that has been used the most, with filters
 {
   fileName=$(cat "$MOLE_RC" | awk -F'|' -v date1="$dateA" -v date2="$dateB" -v group="$groupName" -v dir="$DIR" '
